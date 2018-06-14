@@ -4,9 +4,13 @@
 
 `wget -r ftp://ftp.sanger.ac.uk/pub/resources/software/gwava/v1.0/`
 
+There are different versions of GWAVA v1.0. 
+ 
 ## Create conda environment
 
-`conda create -n gwava numpy scipy pandas pytabix scikit-learn=0.14 pybedtools=0.7 tabix`
+`conda create -n gwava numpy scipy pandas pytabix scikit-learn=0.14 pybedtools=0.7 matplotlib=2.0.2 libgfortran=1 tabix`
+
+The version number should be defined as above because GWAVA is using old libraries.
 
 `source activate gwava`
 
