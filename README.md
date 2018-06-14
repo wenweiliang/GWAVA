@@ -4,7 +4,7 @@
 
 `wget -r ftp://ftp.sanger.ac.uk/pub/resources/software/gwava/v1.0/`
 
-There are different versions of GWAVA v1.0. 
+There are different versions of GWAVA v1.0. This one is more up-to-date. 
  
 ## Create conda environment
 
